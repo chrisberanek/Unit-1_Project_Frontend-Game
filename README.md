@@ -2,22 +2,20 @@
 
 https://chrisberanek.github.io/frontend_game_project/
 
-
-
 ## Development
 
 * Starting the game
 * Adding values for the Computer sequence
-* Adding values for user sequence
+* Adding values for Player sequence
 * Comparing the values
-* Determining if user wins
+* Determining if Player wins
 * Beginning a new round
 
 ## Requirements
 
 ### Technical Requirements
 
-Your game must:
+The game must:
 
 - Render in the browser
 - Include separate HTML / CSS / JavaScript files
@@ -31,9 +29,6 @@ Additionally, your project should stick with KISS (Keep It Stupid Simple) and
 DRY (Don't Repeat Yourself) principles.
 
 ## Submission
-
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to this repo.
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEI and beyond!
