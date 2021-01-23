@@ -1,0 +1,2 @@
+let computerSequence = [];
+let playerSequence = [];
