@@ -1,15 +1,7 @@
 html {
     box-sizing: border-box;
   }
-  
-  *,
-  *::after,
-  *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-  
+    
   body {
     display: flex;
     justify-content: center;
@@ -33,13 +25,9 @@ html {
   
   header {
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
   }
-  
-  .heading {
-    font-size: 3em;
-  }
-  
+   
   .tile-container {
     display: grid;
     grid-template-rows: 180px 180px;
@@ -50,86 +38,32 @@ html {
     margin-bottom: 40px;
   }
   
-  .unclickable {
-    pointer-events: none;
-  }
   
   .tile-red {
-    background-color: #f25022;
-    
-    transition: 0.15s;
+    background-color: red;
+    transition: 0.25s;
   }
   
-  .tile-red:hover,
-  .tile-red:focus {
-    background-color: #ff451a;
-    
-  }
-  
-  .tile-red:active,
-  .tile-red.activated {
-   
-    background-color: #ff5c36;
-    transform: translateY(10px);
-  }
   
   .tile-green {
-    background-color: #7fba00;
-    
-    transition: 0.15s;
+    background-color: green;
+    transition: 0.25s;
   }
   
-  .tile-green:hover,
-  .tile-green:focus {
-    background-color: #8cc218;
-   
-  }
-  
-  .tile-green:active,
-  .tile-green.activated {
-    
-    background-color: #a0ea00;
-    transform: translateY(10px);
-  }
   
   .tile-yellow {
-    background-color: #ffb900;
-    
-    transition: 0.15s;
+    background-color: yellow;
+    transition: 0.25s;
   }
   
-  .tile-yellow:hover,
-  .tile-yellow:focus {
-    background-color: #ffb900;
-   
-  }
-  
-  .tile-yellow:active,
-  .tile-yellow.activated {
-   
-    background-color: #ffca3d;
-    transform: translateY(10px);
-  }
-  
+ 
   .tile-blue {
-    background-color: #00a4ef;
-    
-    transition: 0.15s;
+    background-color: blue;
+    transition: 0.25s;
   }
   
-  .tile-blue:hover,
-  .tile-blue:focus {
-    background-color: #139ddd;
-   
-  }
   
-  .tile-blue:active,
-  .tile-blue.activated {
-    background-color: #2bbcff;
-    transform: translateY(10px);
-  }
-  
-  .info-section {
+  .info-box {
     text-align: center;
   }
   
