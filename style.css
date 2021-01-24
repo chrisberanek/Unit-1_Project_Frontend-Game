@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+  }
+    
+  body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  .invisble {
+    visibility: hidden;
+  }
+  
+  header {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .heading {
+    font-size: 3em;
+  }
+  
+  .tile-container {
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 180px 180px;
+    grid-gap: 25px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .unclickable {
+    pointer-events: none;
+  }
+  
+  .tile-yellow {
+    background-color: #ffb900;
+    transition: 0.5s;
+    border: 5px solid black;
+    border-radius: 25px;
+  }
+  
+  .tile-yellow:hover,
+  .tile-yellow:focus {
+    background-color: #f1d68c;
+  }
+  
+  .tile-yellow:active,
+  .tile-yellow.activated {
+    background-color: #f1d68c;
+    transform: translateY(5px);
+  }
+  
+  .tile-blue {
+    background-color: #00a4ef;
+    transition: 0.5s;
+    border: 5px solid black;
+    border-radius: 25px;
+  }
+  
+  .tile-blue:hover,
+  .tile-blue:focus {
+    background-color: #77c8ee;
+  }
+  
+  .tile-blue:active,
+  .tile-blue.activated {
+    background-color: #77c8ee;
+    transform: translateY(5px);
+  }
+
+  .tile-red {
+    background-color: #f74514;
+    transition: 0.5s;
+    border: 5px solid black;
+    border-radius: 25px;
+  }
+  
+  .tile-red:hover,
+  .tile-red:focus {
+    background-color: #f3ad9d;
+  }
+  
+  .tile-red:active,
+  .tile-red.activated {
+    background-color: #f3ad9d;
+    transform: translateY(5px);
+  }
+  
+  .tile-green {
+    background-color: #7fba00;
+    transition: 0.5s;
+    border: 5px solid black;
+    border-radius: 25px;
+  }
+  
+  .tile-green:hover,
+  .tile-green:focus {
+    background-color: #d0f086;
+  }
+  
+  .tile-green:active,
+  .tile-green.activated {
+    background-color: #d0f086;
+    transform: translateY(5px);
+  }
+  
+  .info-section {
+    text-align: center;
+  }
+  
+  .start-button {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 38px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    color: #333;
+    border-color: rebeccapurple;
+    outline-style: ridge;
+  }
+  
+  .info {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
