@@ -51,7 +51,7 @@ One thing I did not get to in the time frame allowed was to incorporate audio fi
 
 Another method I used to save time on the front-end was to utilze standard Alert pop-ups to signify when a Player wins the game! or when a Player loses the game! These work for the basic requirement but could be enhanced with utilizing grid containers or other methods and activating or deactivating attributes in the container classes, etc. to make a better visual experience. Audio scr = references could also be added as future enhancements to this version of the project.
 
-In addition, I do have a lot of individual functions created to pass object values and execute processes. I believe some creative comparative loops and other code enhancements could make my code set a bit more compact and efficient. The timeers I have <setTimeout()> are all very asynchronous and individually created. I think some coordination could be done to reduce the number of functions and timers separately used in the current code form, and would welcome any feedback or comments on those topics.
+In addition, I do have a lot of individual functions created to pass object values and execute processes. I believe some creative comparative loops and other code enhancements could make my code set a bit more compact and efficient. The timers I have <setTimeout()> are all very asynchronous and individually created. I think some coordination could be done to reduce the number of functions and timers separately used in the current code form, and I would welcome any feedback or comments on those topics.
 
 
 ## Built With
